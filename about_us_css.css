@@ -1,0 +1,37 @@
+body{
+    background-color:#f4f4f4;
+}
+
+#intro_div{
+    width: 20em;
+}
+#intro{
+    border: 5px solid #ff675b;
+}
+#Kareem{
+    display: block;
+    max-width:400px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
+#Siwar{
+    height: 250px;
+    width: 85px;
+
+}
+#Yuval{
+     height: 250px;
+     width: 40%;
+}
+#Rani{
+    height: 250px;
+    width: 40%;
+    transform: rotate(90deg);
+
+}
+#facbook_link{
+    border-radius: 25px;
+    font-family: Arial, strong, sans-serif;
+    background-color: aquamarine;
+}
