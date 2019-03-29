@@ -1,4 +1,47 @@
 body{
-    background-image: url("backg.jpg");
+background-image: url("b.jpeg");
     
+}
+.TMFS{
+    font-family: 'Kaushan Script', cursive;
+}
+ a{
+     text-decoration: none;
+     color: black;
+ }
+ a:hover{
+     text-decoration: none;
+     color: black;
+ }
+ #DogCard{
+    width: 300px;
+    background-color: bisque;
+    height:300px;
+    position: relative;
+
+    left: 200px;
+border: #560500 5px solid;
+    border-radius: 20px;
+}
+
+#CatCard{
+    width: 300px;
+    background-color: bisque;
+    height:300px;
+    position: relative;
+
+    left: 1000px;
+    bottom: 300px;
+    border: #560500 5px solid;
+    border-radius: 20px;
+}
+
+.ms{
+    transition: 1s;
+}
+.ms:hover{
+
+
+    transform: scale(1.1);
+    z-index: 20;
 }
