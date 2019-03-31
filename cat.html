@@ -10,7 +10,13 @@
     <link rel="stylesheet" type="text/css" href="gallery.css">
     <link rel="stylesheet" type="text/css" href="Cat.css">
      <script src="PetDetail.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
 </head>
 <body>
 
@@ -50,7 +56,10 @@
     </div>
 </nav>
 
-<h1>welcom to cats </h1>
+<h1 class="TMFS" style="color: black">Avilable Cats</h1>
+
+
+
 <img   id="steve" class="catsImg" src="img_galry/cat1.jpg">
 <img      id="simon"     class="catsImg" src="img_galry/cat2.jpg">
 <img  id="katty" class="catsImg" src="img_galry/cat5.jpg">
@@ -61,13 +70,22 @@
     <div  id="PetId" class="Card" >
 
         <h9>  </h9>
-        <h3 class="TMFS">Name :name</h3>
-        <h3 class="TMFS">Age : age</h3>
-        <h3 class="TMFS">Favorite food:#####</h3>
-        <h3 class="TMFS">Adress</h3>
-
+        <h3 id="name" class="TMFS">Name :name</h3>
+        <h3  id="age" class="TMFS">Age : age</h3>
+        <h3  id="food" class="TMFS">Favorite food:#####</h3>
+        <h3  id="Adress" class="TMFS">Favorite food:#####</h3>
+        <button id="btn" type="button">Adobt me</button>
 
     </div>
+
+<div id="AdoptainProc" class="Card">
+    <form>
+        User name:<br>
+        <input class="box" type="text" name="username"><br>
+        User password:<br>
+        <input class="box" type="password" name="psw">
+    </form>
+</div>
 
 
 </body>
