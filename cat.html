@@ -11,12 +11,20 @@
     <link rel="stylesheet" type="text/css" href="Cat.css">
      <script src="PetDetail.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
-
+  <script src="SendEmail.js"></script>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
+<style>
+    .box{
+        border: solid black 5px;
+        border-radius:10px ;
+        width: 350px;
 
+
+    }
+</style>
 </head>
 <body>
 
@@ -79,11 +87,16 @@
     </div>
 
 <div id="AdoptainProc" class="Card">
-    <form>
-        User name:<br>
-        <input class="box" type="text" name="username"><br>
-        User password:<br>
-        <input class="box" type="password" name="psw">
+    <form  method="POST"  action="https://script.google.com/macros/s/AKfycbx_wYyGcR96cYCNsWhQUDmnS-VX_x2YJ09aAIBB/exec">
+        <h3 class="TMFS">Enter youre information</h3>
+        <div style="align-items: center;">
+        Full Name: <input id="UserName" type="text" name="UserName" class="box"><br>
+            Your'e Age:    <input id="UserAge" type="text" name="UserAge" class="box"><br>
+            Youre Email: <input  id="email" type="text" name="email" class="box"><br>
+             Number: <input id="Number" type="text" name="Number" class="box"><br>
+            <input id="btn1" type="submit" value="Submit">
+        </div>
+
     </form>
 </div>
 

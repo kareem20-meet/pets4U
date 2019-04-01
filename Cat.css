@@ -53,12 +53,29 @@ position: relative;
     color: #f4f4f4;
     font-size: 30px;
     border-color:black ;
-
+    transition: 650ms;
 }
 #btn:hover{
     background-color: gray;
     color: black;
 }
+#btn1{
+
+    position: relative;
+    left: 90px;
+    top: 20px;
+    border-radius:10px;
+    background-color: black;
+    color: #f4f4f4;
+    font-size: 20px;
+    border-color:black ;
+    transition: 650ms;
+}
+#btn1:hover{
+    background-color: gray;
+    color: black;
+}
+
 
 #AdoptainProc{
 

@@ -35,6 +35,11 @@ let Clicked=false;
     function CheckPicked(number) {
         Clicked = true;
         HideAndShow();
+        if(Info=true){
+            $("#AdoptainProc").hide();
+            $("#PetId").show();
+            Info=false;
+        }
         if (number == 0) {
             $("#name").html("<h3>Name: Steve</h3>");
             $("#age").html("<h3>Age:2years</h3>");
@@ -68,7 +73,22 @@ let Clicked=false;
 
     }
 
+    var Info=false;
+
+
+    $("#AdoptainProc").hide();
+$("#btn").click(function () {
+    if(Info===false){
+        $("#AdoptainProc").show();
+        Info=true;
+    }
+    $("#PetId").hide();
+
+});
 
 $("#PetId").hide();
+
+
+
 
 });
