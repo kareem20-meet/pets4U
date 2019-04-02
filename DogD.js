@@ -4,14 +4,14 @@ $(document).ready(function(){
     let AvilablePets = [$("#steve"), $("#simon"), $("#katty")];
 
 
- let Pet1=AvilablePets[0];
- let Pet2=AvilablePets[1];
- let Pet3=AvilablePets[2];
-let Clicked=false;
+    let Pet1=AvilablePets[0];
+    let Pet2=AvilablePets[1];
+    let Pet3=AvilablePets[2];
+    let Clicked=false;
 
-  Pet1.click(function () {
-      CheckPicked(AvilablePets.indexOf(Pet1));
-  });
+    Pet1.click(function () {
+        CheckPicked(AvilablePets.indexOf(Pet1));
+    });
 
     Pet2.click(function () {
         CheckPicked(AvilablePets.indexOf(Pet2));
@@ -50,11 +50,11 @@ let Clicked=false;
 
         if (number == 1) {
 
-                $("#name").html("<h3>Name: Simon</h3>");
-                $("#age").html("<h3>Age:2years</h3>");
-                $("#food").html("<h3>Favorite food : Fish </h3>");
+            $("#name").html("<h3>Name: Simon</h3>");
+            $("#age").html("<h3>Age:2years</h3>");
+            $("#food").html("<h3>Favorite food : Fish </h3>");
 
-                $("#Adress").html("<h3>Adress:tel Aviv</h3>");
+            $("#Adress").html("<h3>Adress:tel Aviv</h3>");
 
 
         }
@@ -77,22 +77,22 @@ let Clicked=false;
 
 
     $("#AdoptainProc").hide();
-$("#btn").click(function () {
-    if(Info===false){
-        $("#AdoptainProc").show();
-        Info=true;
-    }
+    $("#btn").click(function () {
+        if(Info===false){
+            $("#AdoptainProc").show();
+            Info=true;
+        }
+        $("#PetId").hide();
+
+    });
+
+    $("#btn1").click(function () {
+
+        $("#btn2").click();
+    });
+    $("#btn2").hide();
+
     $("#PetId").hide();
-
-});
-
-$("#btn1").click(function () {
-
-$("#btn2").click();
-});
-$("#btn2").hide();
-
-$("#PetId").hide();
 
 
 
