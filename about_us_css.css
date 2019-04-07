@@ -1,35 +1,60 @@
-body{
-    background-color:#f4f4f4;
+
+h1{
+    text-align:center;
+    font-family: Courier;
+    font-size:7vw;
 }
 
-#intro_div{
-    width: 20em;
+body {
+    background-color:#ffffff ;
+
 }
+
+
 #intro{
-    border: 5px solid #ff675b;
+    margin-top: 100px;
+    width: 1920px;
+    height: 1080px;
+    background-image: url("intro_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+    background-position: center;
+    font-size: 27px;
+    position: relative;
+
 }
 #Kareem{
-    display: block;
-    max-width:400px;
-    max-height:200px;
-    width: auto;
-    height: auto;
+    width: 331px;
+    height:392px;
+    /*margin-top: 5em;*/
 }
-#Siwar{
-    height: 250px;
-    width: 85px;
+#Rani {
+    /*position: absolute;
+    margin-top:5em;*/
+    height: 380px;
+    width: 331px;
+    left: 700px;
+}
 
-}
 #Yuval{
-     height: 250px;
-     width: 40%;
-}
-#Rani{
-    height: 250px;
-    width: 40%;
-    transform: rotate(90deg);
+    /*position: relative;
+    margin-top:5em;*/
+    height: 396px;
+    width: 331px;
 
 }
+
+#Siwar{
+    /*position: absolute;
+    margin-top:5em;*/
+    height: 384px;
+    width: 331px;
+    left:700px;
+
+
+}
+
 #facbook_link{
     border-radius: 25px;
     font-family: Arial, strong, sans-serif;
